@@ -19,29 +19,31 @@ function Headers() {
                 </div>
                 <div className="text-black font-medium text-3xl">Somen</div>
             </div>
-            <nav className="hidden sm:flex items-center gap-12 font-semibold">
-                <button className="text-[#333333] font-normal text-xs">
-                    Home
-                </button>
-                <button className="text-[#333333] font-normal text-xs">
-                    About
-                </button>
-                <button className="text-[#333333] font-normal text-xs">
-                    Process
-                </button>
-                <button className="text-[#333333] font-normal text-xs">
-                    Protfolio
-                </button>
-                <button className="text-[#333333] font-normal text-xs">
-                    Blog
-                </button>
-                <button className="text-[#333333] font-normal text-xs">
-                    Services
-                </button>
-                <button className="bg-[#A53DFF] px-6 py-3 rounded-lg text-white font-normal text-xs">
+            <div className="flex flex-row">
+                <nav className="hidden sm:flex items-center gap-10 font-semibold">
+                    <button className="text-[#333333] font-normal text-xs">
+                        Home
+                    </button>
+                    <button className="text-[#333333] font-normal text-xs">
+                        About
+                    </button>
+                    <button className="text-[#333333] font-normal text-xs">
+                        Process
+                    </button>
+                    <button className="text-[#333333] font-normal text-xs">
+                        Protfolio
+                    </button>
+                    <button className="text-[#333333] font-normal text-xs">
+                        Blog
+                    </button>
+                    <button className="text-[#333333] font-normal text-xs">
+                        Services
+                    </button>
+                </nav>
+                <button className="bg-[#A53DFF] px-5 py-3 mx-4 rounded-sm text-white font-normal text-xs">
                     Contact
                 </button>
-            </nav>
+            </div>
         </header>
     );
 }
