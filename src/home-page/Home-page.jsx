@@ -1,11 +1,13 @@
-import Headers from "./components/headers";
-import Home from "./components/home";
+import Headers from "./screens/headers";
+import Home from "./screens/Home";
+import Process from "./screens/Process";
 
 function HomePage() {
     return (
-        <div>
+        <div className="overflow-x-hidden">
             <Headers />
             <Home />
+            <Process />
         </div>
     );
 }

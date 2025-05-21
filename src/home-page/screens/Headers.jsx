@@ -8,11 +8,9 @@
 
 // export default headers
 
-import React from "react";
-
 function Headers() {
     return (
-        <header className="flex flex-row items-center justify-between sm:justify-around pt-4">
+        <header className="flex flex-row items-center justify-between sm:justify-around p-4 bg-white">
             <div className="flex flex-row items-center">
                 <div className="bg-[#A53DFF] w-12 h-12 rounded-full flex items-center justify-center mr-3">
                     <span className="text-white font-medium text-2xl">S</span>
