@@ -24,6 +24,34 @@ function Home() {
                     <button className="bg-[#A53DFF] px-5 py-3 mt-4 rounded-sm text-white font-medium text-xs">
                         Say Hello!
                     </button>
+                    <div className="flex flex-row mt-24">
+                        <div className="flex bg-[#EDD8FF]/50 rounded-tl-[6px] rounded-bl-[6px] px-5 py-3 flex-col items-center w-[180px]">
+                            <div className="text-[#424E60] font-semibold text-2xl mb-2">
+                                15 Y.
+                            </div>
+                            <div className="text-[#697484] font-light text-xs">
+                                Experience
+                            </div>
+                        </div>
+                        <div className="w-[2px]"></div>
+                        <div className="flex bg-[#EDD8FF]/50 px-5 py-3 flex-col items-center w-[180px]">
+                            <div className="text-[#424E60] font-semibold text-2xl mb-2">
+                                250+
+                            </div>
+                            <div className="text-[#697484] font-light text-xs">
+                                Project Completed
+                            </div>
+                        </div>
+                        <div className="w-[2px]"></div>
+                        <div className="flex bg-[#EDD8FF]/50 rounded-tr-[6px] rounded-br-[6px] px-5 py-3 flex-col items-center w-[180px]">
+                            <div className="text-[#424E60] font-semibold text-2xl mb-2">
+                                58
+                            </div>
+                            <div className="text-[#697484] font-light text-xs">
+                                Happy Client
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="flex flex-shrink-0 w-[400px] h-[500px] bg-white shadow-2xl rounded-3xl content-center items-center justify-center overflow-hidden">
                     <img
