@@ -3,7 +3,7 @@
 function About() {
     return (
         <div className="flex items-center justify-center mb-[-80px] mt-44">
-            <div className="w-full mr-[240px] ml-[240px] px-24 pt-20 pb-32 bg-white shadow-2xl rounded-xl flex items-center justify-around">
+            <div className="w-full mr-[240px] ml-[240px] px-24 pt-20 pb-32 bg-white shadow-xl rounded-xl flex items-center justify-around">
                 <div className="relative">
                     <div className="bg-[#F0F1F3] w-[320px] h-[400px] flex-shrink-0 justify-between rounded-xl overflow-hidden">
                         <img
