@@ -1,4 +1,5 @@
 import About from "./About";
+import PrimaryBtn from "../../components/Primary-btn";
 
 function Home() {
     return (
@@ -21,9 +22,13 @@ function Home() {
                         beautiful web applications through carefully crafted
                         code and user-centric design.
                     </div>
-                    <button className="bg-[#A53DFF] px-5 py-3 mt-4 rounded-sm text-white font-medium text-xs">
-                        Say Hello!
-                    </button>
+                    <div className="mt-4">
+                        <PrimaryBtn
+                            title="Say Hello!"
+                            onBtnClick={() => console.log("dsdsd")}
+                        />
+                    </div>
+
                     <div className="flex flex-row mt-24">
                         <div className="flex bg-[#EDD8FF]/50 rounded-tl-[6px] rounded-bl-[6px] px-5 py-3 flex-col items-center w-[180px]">
                             <div className="text-[#424E60] font-semibold text-2xl mb-2">

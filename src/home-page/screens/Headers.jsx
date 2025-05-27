@@ -1,5 +1,7 @@
 // import React from 'react'
 
+import PrimaryBtn from "../../components/Primary-btn";
+
 // function headers() {
 //   return (
 //     <div>headers</div>
@@ -38,9 +40,13 @@ function Headers() {
                         Services
                     </button>
                 </nav>
-                <button className="bg-[#A53DFF] px-5 py-3 mx-4 rounded-sm text-white font-normal text-xs">
+                <div className="mx-4">
+                    <PrimaryBtn title="Contact" />
+                </div>
+
+                {/* <button className="bg-[#A53DFF] px-5 py-3 mx-4 rounded-sm text-white font-normal text-xs">
                     Contact
-                </button>
+                </button> */}
             </div>
         </header>
     );

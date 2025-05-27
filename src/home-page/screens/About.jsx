@@ -1,4 +1,6 @@
 // About.jsx;
+import PrimaryBtn from "../../components/Primary-btn";
+import SecondaryBtn from "../../components/Secondary-btn";
 
 function About() {
     return (
@@ -60,18 +62,39 @@ function About() {
                         services.
                     </div>
                     <div className="flex">
-                        <button className="bg-[#A53DFF] border-[1px] border-[#A53DFF] px-5 py-3 mt-4 mr-5 rounded-sm text-white font-medium text-xs">
-                            My Project!
-                        </button>
+                        <div className="mr-5 mt-4">
+                            <PrimaryBtn
+                                title="My Project!"
+                                onBtnClick={() => console.log("My Project!")}
+                            />
+                        </div>
 
-                        <button className="flex items-center gap-2 bg-white border-[1px] border-[#A53DFF] px-5 py-3 mt-4 rounded-sm text-[#A53DFF] font-medium text-xs">
+                        <div className="mt-4">
+                            <SecondaryBtn
+                                title="Download CV"
+                                image={
+                                    <img
+                                        src="src/assets/download.svg"
+                                        alt="download image"
+                                        className="w-4 h-4"
+                                    />
+                                }
+                                onBtnClick={() => console.log("My Project!")}
+                            />
+                        </div>
+
+                        {/* <button className="bg-[#A53DFF] border-[1px] border-[#A53DFF] px-5 py-3 mt-4 mr-5 rounded-sm text-white font-medium text-xs">
+                            My Project!
+                        </button> */}
+
+                        {/* <button className="flex items-center gap-2 bg-white border-[1px] border-[#A53DFF] px-5 py-3 mt-4 rounded-sm text-[#A53DFF] font-medium text-xs">
                             <img
                                 src="src/assets/download.svg"
                                 alt="download image"
                                 className="w-4 h-4"
                             />
                             Download CV
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>
